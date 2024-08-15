@@ -7,18 +7,28 @@
     <body>
         <h1>INSCRIBETE PARA SER MINERO</h1>
         <p>En nuestro programa de mineria encontraras el lugar con buenas intalaciones que te permitiran tener un gran aprendizaje, aprende de los mejores maestros de latinoamerica, ten experiencias recreativas y asegura tu futuro con nosotros.</p>
+        <div class="carousel-container">
+            <div class="carousel">
+                <img src=images/mina.jpg alt="Imagen 1">
+                <img src=images/mina.jpg alt="Imagen 2">
+                <img src=images/mina.jpg alt="Imagen 3">
+            </div>
+            <button aria-label="Imagen anterior" class="prev-button">❮</button>
+            <button aria-label="Imagen siguiente" class="next-button">❯</button>
+        </div>
+        
         <form>
-            <img src =images/mina.jpg alt = "Mina la esmeralda">
+            <img id="imagen" src =images/mina.jpg alt = "Mina la esmeralda">
             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" placeholder="Escribe tu nombre" required>
             
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
             
             <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
             
-            <input type="submit" value="Submit">
+            <input type="submit" value="Enviar">
             <button type="help">Pasos para tener un dia seguro en la mina</button>
         </form>
        
